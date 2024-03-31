@@ -17,7 +17,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [L_BAS] = LAYOUT_split_3x6_3_ex2(
     /* colemak-dh:
     q  w  f  p  b         j  l  u  y  '
-    a  r  s  t  g         ,  n  e  i  o
+    a  r  s  t  g         m  n  e  i  o
     z  x  c  d  v         k  h  ,  .  /
      */
     KC_LALT,        KC_Q,     KC_W,         KC_F,   KC_P,  KC_B,  KC_BSPC,   KC_DEL,   KC_J,  KC_L,  KC_U,    KC_Y,           KC_QUOT,  KC_RALT,
@@ -28,9 +28,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [L_WKM] = LAYOUT_split_3x6_3_ex2(
     /* workman:
-    q  d  t  w  b         j  f  u  p  '
+    q  d  r  w  b         j  f  u  p  '
     a  s  h  t  g         y  n  e  o  i
-    z  x  ,  v  c         k  l  ,  .  /
+    z  x  m  v  c         k  l  ,  .  /
     */
     KC_LALT,        KC_Q,     KC_D,         KC_R,  KC_W,   KC_B,  KC_BSPC,   KC_DEL,   KC_J,  KC_F,  KC_U,    KC_P,           KC_QUOT,  KC_RALT,
     CTL_T(KC_ENT),  KC_A,     KC_S,         KC_H,  KC_T,   KC_G,  KC_PSCR,   CW_TOGG,  KC_Y,  KC_N,  KC_E,    KC_O,           KC_I,     CTL_T(KC_SCLN),
@@ -40,9 +40,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
   [L_DVK] = LAYOUT_split_3x6_3_ex2(
     /* dvorak:
-    '  ,  .  p  y         f  g  c  t  l
+    '  ,  .  p  y         f  g  c  r  l
     a  o  e  u  i         d  h  t  n  s
-    /  q  j  k  x         b  ,  w  v  z
+    /  q  j  k  x         b  m  w  v  z
     */
     KC_LALT,        KC_QUOT,  KC_COMM,      KC_DOT, KC_P,  KC_Y,  KC_BSPC,   KC_DEL,   KC_F,  KC_G,  KC_C,    KC_R,           KC_L,     KC_RALT,
     CTL_T(KC_ENT),  KC_A,     KC_O,         KC_E,   KC_U,  KC_I,  KC_PSCR,   CW_TOGG,  KC_D,  KC_H,  KC_T,    KC_N,           KC_S,     CTL_T(KC_SCLN),
