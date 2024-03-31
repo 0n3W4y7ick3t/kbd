@@ -98,9 +98,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   ),
 
   [L_FUN] = LAYOUT_split_3x6_3_ex2(
-    QK_BOOT,  KC_F1,     KC_F2,      KC_F3,    KC_F4,      KC_F5,     DM_REC1,  DM_REC2,  KC_F6,    KC_F7,    KC_F8,    KC_F9,    KC_F10,    _______,
-    _______,  DF(L_BAS), DF(L_WKM),  RGB_VAI,  DF(L_DVK),  DF(L_QWT), DM_PLY1,  DM_PLY2,  KC_F11,   KC_F12,   KC_F13,   KC_F14,   KC_F15,    _______,
-    _______,  DF(L_GME), _______,    RGB_VAD,  _______,    _______,                       _______,  _______,  _______,  _______,  _______,   _______,
-                                               _______,    RGB_MOD,   RGB_SPD,  RGB_SPI,  RGB_TOG,  _______
+    QK_BOOT,  KC_F1,     KC_F2,      KC_F3,    KC_F4,      KC_F5,     DM_REC1,  DM_REC2,  KC_F6,    KC_F7,    KC_F8,    KC_F9,     KC_F10,    _______,
+    _______,  DF(L_BAS), DF(L_WKM),  RGB_VAI,  DF(L_DVK),  DF(L_QWT), DM_PLY1,  DM_PLY2,  KC_F11,   KC_F12,   KC_F13,   KC_F14,    KC_F15,    _______,
+    _______,  DF(L_GME), _______,    RGB_VAD,  RGB_HUI,    RGB_SAI,                       RGB_M_P,  RGB_M_B,  RGB_M_R,  RGB_M_SW,  RGB_RMOD,  RGB_MOD,
+                                               RGB_HUD,    RGB_SAD,   RGB_SPD,  RGB_SPI,  RGB_TOG,  _______
   ),
 };
